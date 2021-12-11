@@ -76,7 +76,7 @@ public class andifbm {
             q();
         }
     }
-        //Evaluar si numero de a's mayor que b's
+        //Evaluar si numero de b's mayor que a's
     public void p2(String cadena){
         Stack respaldo=(Stack)pila.clone();
         Stack respaldo2pos=(Stack)pila.clone();
