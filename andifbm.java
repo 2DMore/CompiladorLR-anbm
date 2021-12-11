@@ -86,7 +86,7 @@ public class andifbm {
         if(!respaldo2pos.empty()){
             respaldo2pos.pop();
         }
-        if (!pila.empty()&&pila.peek()=="b"&& !respaldo.empty() &&respaldo.peek()=="B" && !respaldo2pos.empty() && respaldo2pos.peek()=="a"){//Esto ocurre cuando ya se encuentra una b, y se intenta verificar que a sea mayor que b
+        if (!pila.empty()&&pila.peek()=="b"&& !respaldo.empty() &&respaldo.peek()=="B" && !respaldo2pos.empty() && respaldo2pos.peek()=="a"){//Esto ocurre cuando ya se encuentra una b, y se intenta verificar que b sea mayor que a
             
                 pila.pop();
                 pila.pop();
